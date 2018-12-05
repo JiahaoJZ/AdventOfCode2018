@@ -1,15 +1,13 @@
 def partOne():
-    with open("day1input1.txt") as f:
-        ans = 0
-        for i in f:
-            ans += int(i)
+    with open("day1input.txt") as f:
+        ans = sum(int(x) for x in f)
         print("El desplazamiento total es: " + str(ans))
 
 numbers = {0}
 ans = 0
 
 def partTwo():
-    with open("day1input1.txt") as f:
+    with open("day1input.txt") as f:
         text = f.read()
         found = 0
         while found is 0:
@@ -25,5 +23,6 @@ def iteration(file):
             return 1
         numbers.add(ans)
     return 0
+
 partOne()
 partTwo()
