@@ -29,7 +29,6 @@ def partTwo():
         aux = text.splitlines()
         aux2 = text.splitlines()
         aux2.reverse()
-        counter = 0
         for line in aux:
             aux2.pop()
             for line2 in aux2:

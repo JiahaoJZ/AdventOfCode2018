@@ -9,7 +9,6 @@ numbers = {0}
 ans = 0
 
 def partTwo():
-    global ans
     with open("day1input1.txt") as f:
         text = f.read()
         found = 0
