@@ -38,6 +38,7 @@ def partTwo():
                     line + " - " + line2)
                     print("The intersection of the 2 strings are: " +
                     strIntersection(line,line2))
+                    return
 
 def hammingDistance(a,b):
     assert(len(a) == len(b))
